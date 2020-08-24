@@ -5,9 +5,19 @@
  //this is the index of the page linked to php//
  
   include 'Templates.php';
-
-  include 'footer.php';
-
-  
-  
  ?>
+  
+  <?php //classfooter.php linked used argument require//
+  require 'classFooter.php'
+?>
+
+<?php
+    $footer = new Footer();
+    $footer -> orgfooter(); 
+
+?>
+
+
+  
+  
+ 

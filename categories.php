@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-    <html>
-	<!--this is the categories page it includes to subpages, to acces to detailed products of woman and man
-	-->
-            <head>
+<?php 
+					require 'classHeader.php'// link of clasheader to categories.php//
+				?>
 
-	        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	        <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-	    
-	        <title><?php echo $title; //value title included on the page printed using echo function//?></title>
-			
-			</head>
+			 <?php
+				$header = new Header();
+				$header -> orgheader(); 
+
+			 ?>
 
 			<body>
 
@@ -28,17 +25,33 @@
                                </ul>
 			  </nav>
 
-			  
-			  <div id="image4">
-			  <li><a href="woman.php">woman</a></li>
+			  <?php //link class card to categories//
+					require 'classCard2.php'
+				?>
 
-				</div>
-			
-			<div id="image5">
-			<li><a href="man.php">man</a></li>
-				</div>
+				<?php
+
+				$card2 = new Card2();
+				$card2 -> create_card2('./images2/versace6.jpg', 'Exclusive MAN Collection');
+				$card2 -> create_card2('./images2/versace3.jpg', 'Exclusive WOMAN Collection');
+				//only to variable links to put woman a nd man collection//
+				?>
+				 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<!-- bootsrap links -->
+</body>  
+			  
 </body>
 <?php
 
-		
-   include 'footer.php'; 
+	?>	
+<?php  // link of classfooter to categorues page//
+require 'classFooter.php'
+?>
+
+<?php
+  $footer = new Footer();
+  $footer -> orgfooter(); 
+
+?>

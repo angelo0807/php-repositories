@@ -1,9 +1,9 @@
 
 <?php 
-
+//properties//
 class Header {
 
-    var $title;
+    var $title; // variable name//
 
     public function orgheader(){
     ?>
@@ -14,7 +14,7 @@ class Header {
                 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
                 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
                 <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-
+<!--bootstrap linl to the webpage -->
             
                 <title><?php echo $title; ?></title>
                 </head>

@@ -1,12 +1,12 @@
 
-			 <?php 
+			 <?php //class of header//
 					require 'classHeader.php'
-				?>
-
+				?>  
+				
 			 <?php
 				$header = new Header();
 				$header -> orgheader(); 
-
+//link of header to templates.php//
 			 ?>
 			
 	    <body>
@@ -35,13 +35,13 @@
 				<p>Welcome to Fashionwave<p>
 				</div>
 
-				<?php 
+				<?php // class of image cards//
 					require 'classCards.php'
+					// link class cards.php using require to templates
 				?>
-
 				<?php
 
-				$card = new Card();
+				$card = new Card();//method alwyas has to have () and begin on capital letter//
 				$card -> create_card('./images2/burberry-1.jpg', 'New Burberry Collection');
 				$card -> create_card('./images2/gucci.jpg', 'New Gucci Collection');
 				$card -> create_card('./images2/selena.jpg', 'New Nike Collection');
