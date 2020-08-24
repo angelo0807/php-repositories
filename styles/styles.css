@@ -17,7 +17,7 @@ body p
 
 #wrapper
 {
-   width: 1080px;
+   width: 1200px;
    background-color: black;
    margin: 0 auto;
    padding: 10px;
@@ -465,3 +465,13 @@ footer
          background-image: url(../phpimages/header.jpg);
 }
 
+/* BOOTSTRAP */
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  margin-top: 20px;
+}
