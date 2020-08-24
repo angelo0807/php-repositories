@@ -1,0 +1,467 @@
+/*css file contains the style  and design of the page, size of the pagee, ubication of images, size of th banner,
+nav bar, and footer.etc
+*/
+
+body
+{
+    font-family: lucida grande,tahoma,verdana,arial,sans-serif;
+    background-color:#FFF
+}
+
+body p
+{
+    font-size: 0.8em;
+    line-height: 1.28;
+}
+
+
+#wrapper
+{
+   width: 1080px;
+   background-color: black;
+   margin: 0 auto;
+   padding: 10px;
+   border: 5px solid #dedede;
+}
+
+
+#banner /*banner configurations
+*/
+{	
+  background-image: url(../images2/logo.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #dedede;
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+#content_area
+{
+	 float: left;
+	 width: 750px;
+	 margin: 20px 0 20px 0;
+	 padding: 10px;
+}
+
+
+#sidebar
+{
+  float: right;
+	width: 250px;
+	height: 400px;
+	margin: 20px 10px;
+	padding: 10px;
+	border: 2px solid #E3E3E3;
+}
+
+#navigation
+{    
+  height: 80px;
+	border: 3px solid white;
+	margin-top: 40px;
+  text-shadow: 0.1em 0.1em black;
+  list-style:none;	
+}
+
+
+
+
+#nav ul
+{
+	margin:0;
+	padding:0;
+	width: auto;
+	display: none;
+}
+
+#nav li 
+{
+	font-size: 25px;
+  float: left;
+  text-align: center;
+	width: 170px;
+  height: 100%;
+  /* this feature desable list decoration */
+  list-style: none;
+
+ 
+}
+
+
+#nav a:link, nav a:active, nav a:visited
+{
+	display: block;
+  color: #fff;
+  /* this feature delete line decoration */
+	text-decoration: none;	
+}
+ 
+#nav a:hover
+{
+	color: gold;
+}
+
+#content_area {
+	color: azure;
+  float: left;
+	margin-top: 20px;
+   
+  background-repeat: no-repeat;
+  background-size: auto;
+  border: 5px solid #dedede;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+#image {
+  /* designg configuration images 
+  */
+    margin-top: 10px;
+    background-image: url(../images2/header.jpg); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 5px solid #dedede;
+  height: 500px;
+}
+
+#texti1 
+/* design, size, color and text included on image 1
+*/{ 
+ color: white;
+ font-size: 100px;
+ text-align: center;
+}
+
+#image2
+{
+  margin-top: 10px;
+  background-image: url(../images2/burberry-1.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width:550px ;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image3
+{
+  margin-top: 10px;
+  background-image: url(../images2/gucci.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+
+#image4
+{
+  margin-top: 10px;
+  background-image: url(../images2/selena2.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+
+#texti4
+{ 
+  color: gold;
+  font-size: 100px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+ }
+
+#image5
+{
+  margin-top: 10px;
+  background-image: url(../images2/burberry-3.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+
+#texti5
+{ 
+  color: gold;
+  font-size: 30px;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+ }
+
+ #image6
+{
+  margin-top: 10px;
+  background-image: url(../images2/versace1.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#texti6
+{ 
+  color: gold;
+  font-size: 100px;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+ }
+ 
+#image7
+{
+  margin-top: 10px;
+  background-image: url(../images2/versace2.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+
+#image8
+{
+  margin-top: 10px;
+  background-image: url(../images2/versace3.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+
+#image9
+{
+  margin-top: 10px;
+  background-image: url(../images2/versace4.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image10
+{
+  margin-top: 10px;
+  background-image: url(../images2/versace5.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+
+#form {
+  background-color: #dedede;
+  font-size:  20px;
+  height: 100%;
+  width: 1080px;
+  display: block;
+  margin: auto;
+  border: 5px solid black;
+  padding-left: 20px;
+  
+}
+#image11
+{
+  margin-top: 10px;
+  background-image: url(../images2/v1.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image12
+{
+  margin-top: 10px;
+  background-image: url(../images2/v2.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image13
+{
+  margin-top: 10px;
+  background-image: url(../images2/v3.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image14
+{
+  margin-top: 10px;
+  background-image: url(../images2/v4.jpeg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image14
+{
+  margin-top: 10px;
+  background-image: url(../images2/v5.jpeg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image15
+{
+  margin-top: 10px;
+  background-image: url(../images2/v6.jpeg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image16
+{
+  margin-top: 10px;
+  background-image: url(../images2/v7.jpeg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+
+#image17
+{
+  margin-top: 10px;
+  background-image: url(../images2/shoes.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image18
+{
+  margin-top: 10px;
+  background-image: url(../images2/shoes2.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image19{
+  margin-top: 10px;
+  background-image: url(../images2/versace1.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image20
+{
+  margin-top: 10px;
+  background-image: url(../images2/versace1.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+#image21
+{
+  margin-top: 10px;
+  background-image: url(../images2/versace1.jpg); 
+background-repeat: no-repeat;
+background-size: cover;
+border: 5px solid #dedede;
+height: 400px;
+width: 510px;
+float: left;
+object-fit: cover;
+object-position: center center;
+}
+footer
+{
+	 clear: both;
+	 width: auto;
+	 height: 40px;
+	 padding: 10px;
+	 border: 3px solid #E3E3E3;
+	 text-align: center;
+	 color: white;
+	 text-shadow: 0.1em 0.1em #333;
+         background-image: url(../phpimages/header.jpg);
+}
+
